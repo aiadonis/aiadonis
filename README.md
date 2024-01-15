@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @aiadonis
+- 👋 Hi, I’m @daltonskach.
 - 👀 I’m interested in developing AI and ML projects.
 - 🌱 I’m currently learning Python.
 - 💞️ I’m looking to collaborate on Python courses and insights.
