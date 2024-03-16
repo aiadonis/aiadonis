@@ -1,39 +1,29 @@
-
-
-@media screen and (max-width: 768px) {
+/* Base styles for the boxes and images */
+.box {
+    display: grid;
+    place-items: center; /* Center the image in the box */
+    width: 200px; /* Fixed width for boxes, adjust as needed */
+    height: 200px; /* Fixed height for boxes, adjust as needed */
+  }
+  
+  .box img {
+    width: 100%; /* Make image take up 100% of the box's width */
+    height: 100%; /* Make image take up 100% of the box's height */
+    object-fit: cover; /* This will cover the box area, potentially cropping the image */
+  }
+  
+  @media (min-width: 768px) {
     .container {
-        background-color: black;
-        gap: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 30vh; /* Or any other minimum you prefer */
-        flex-wrap: wrap; /* Allow the boxes to wrap to the next line */
+      display: grid;
+      grid-template-columns: repeat(2, 200px); /* Set the width of the columns explicitly */
+      justify-content: center; /* This centers the grid horizontally in the container */
+      gap: 10px; /* Adjust the gap between boxes if needed */
     }
-    
-    .box {
-        font-size: 14px; /* Reduced font size */
-        color: white;
-        font-family: 'Courier New', Courier, monospace;
-      }
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        background-color: black;
-        gap: 10px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
-        min-height: 10vh; /* Or any other minimum you prefer */
-        flex-wrap: wrap; /* Allow the boxes to wrap to the next line */
-        padding: 10px;
+  
+    .box img {
+      width: 200px; /* Set width of the box if not already set outside the media query */
+      height: 200px; /* Set height of the box if not already set outside the media query */
     }
-    
-    .box {
-        font-size: 10px; /* Reduced font size */
-        color: white;
-      }
-}
+  }
+  
+  
