@@ -3,7 +3,6 @@
 - 🌱 I’m currently learning Python.
 - 💞️ I’m looking to collaborate on Python courses and insights.
 - 📫 How to reach me: DM me here.
-- 😄 Pronouns: N/A
 - ⚡ Fun fact: I have started three businesses in the past and I used to work in VC.
 
 <!---
